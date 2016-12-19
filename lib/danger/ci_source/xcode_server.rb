@@ -1,11 +1,11 @@
 # Following the advice from @czechboy0 https://github.com/danger/danger/issues/171
-# https://github.com/czechboy0/Buildasaur
+# https://github.com/buildasaurs/Buildasaur
 require "danger/request_sources/github"
 
 module Danger
   # ### CI Setup
   #
-  # If you're bold enough to use Xcode Bots. You will need to use [Buildasaur](https://github.com/czechboy0/Buildasaur)
+  # If you're bold enough to use Xcode Bots, you will need to use [Buildasaur](https://github.com/buildasaurs/Buildasaur)
   # in order to work with Danger. This will set up your build environment for you, as the name of the bot contains all
   # of the environment variables that Danger needs to work.
   #

@@ -4,7 +4,7 @@ require "danger/request_sources/github"
 module Danger
   # ### CI Setup
   #
-  # You want to add `bundle exec danger` to your `build.sh` file to run  Danger at the
+  # You want to add `bundle exec danger` to your `build.sh` file to run Danger at the
   # end of your build.
   #
   # ### Token Setup

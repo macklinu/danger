@@ -6,7 +6,7 @@ require "danger/request_sources/github"
 module Danger
   # ### CI Setup
   #
-  # For setting up Circle CI, we recommend turning on "Only Build pull requests." in "Advanced Setting." Without this enabled,
+  # For setting up Circle CI, we recommend turning on "Only build pull requests" in "Advanced Settings". Without this enabled,
   # it is _really_ tricky for Danger to know whether you are in a pull request or not, as the environment metadata
   # isn't reliable.
   #
